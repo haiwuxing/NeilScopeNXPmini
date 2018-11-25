@@ -1,0 +1,453 @@
+EESchema Schematic File Version 4
+LIBS:neil_scope3-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AnalogDevices:AD9288BSTZ-40 U3
+U 1 1 5BFA39DE
+P 3300 2550
+F 0 "U3" H 3300 4367 50  0000 C CNN
+F 1 "AD9288BSTZ-100" H 3300 4276 50  0000 C CNN
+F 2 "IPC7351-Nominal:QFP50P900X900X160-48" H 3300 850 50  0001 C CNN
+F 3 "http://www.analog.com/media/en/technical-documentation/data-sheets/AD9288.pdf" H 3300 750 50  0001 C CNN
+F 4 "AD9288BSTZ-40" H 3300 450 50  0001 C CNN "MPN"
+F 5 "ADI" H 3300 550 50  0001 C CNN "Manuf"
+F 6 "ADI AD9288BSTZ-40" H 3300 650 50  0001 C CNN "BOM"
+	1    3300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Pack04 R90
+U 1 1 5BFA53E8
+P 4400 1100
+F 0 "R90" V 4725 1100 50  0000 C CNN
+F 1 "22" V 4634 1100 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4675 1100 50  0001 C CNN
+F 3 "~" H 4400 1100 50  0001 C CNN
+	1    4400 1100
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 R91
+U 1 1 5BFA6885
+P 4400 1500
+F 0 "R91" V 4725 1500 50  0000 C CNN
+F 1 "22" V 4634 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4675 1500 50  0001 C CNN
+F 3 "~" H 4400 1500 50  0001 C CNN
+	1    4400 1500
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 R92
+U 1 1 5BFA7062
+P 4400 2000
+F 0 "R92" V 4725 2000 50  0000 C CNN
+F 1 "22" V 4634 2000 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4675 2000 50  0001 C CNN
+F 3 "~" H 4400 2000 50  0001 C CNN
+	1    4400 2000
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04 R93
+U 1 1 5BFA7CAE
+P 4400 2400
+F 0 "R93" V 4075 2400 50  0000 C CNN
+F 1 "22" V 3984 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 4675 2400 50  0001 C CNN
+F 3 "~" H 4400 2400 50  0001 C CNN
+	1    4400 2400
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	4200 1000 4100 1000
+Wire Wire Line
+	4100 1100 4200 1100
+Wire Wire Line
+	4100 1200 4200 1200
+Wire Wire Line
+	4100 1300 4200 1300
+Wire Wire Line
+	4100 1400 4200 1400
+Wire Wire Line
+	4100 1500 4200 1500
+Wire Wire Line
+	4100 1600 4200 1600
+Wire Wire Line
+	4100 1700 4200 1700
+Wire Wire Line
+	4100 1900 4200 1900
+Wire Wire Line
+	4100 2000 4200 2000
+Wire Wire Line
+	4100 2100 4200 2100
+Wire Wire Line
+	4100 2200 4200 2200
+Wire Wire Line
+	4100 2300 4200 2300
+Wire Wire Line
+	4100 2400 4200 2400
+Wire Wire Line
+	4100 2500 4200 2500
+Wire Wire Line
+	4100 2600 4200 2600
+Text GLabel 4600 1000 2    50   Input ~ 0
+AD0
+Text GLabel 4600 1100 2    50   Input ~ 0
+AD1
+Text GLabel 4600 1200 2    50   Input ~ 0
+AD2
+Text GLabel 4600 1300 2    50   Input ~ 0
+AD3
+Text GLabel 4600 1400 2    50   Input ~ 0
+AD4
+Text GLabel 4600 1500 2    50   Input ~ 0
+AD5
+Text GLabel 4600 1600 2    50   Input ~ 0
+AD6
+Text GLabel 4600 1700 2    50   Input ~ 0
+AD7
+Text GLabel 4600 2600 2    50   Input ~ 0
+AD8
+Text GLabel 4600 2500 2    50   Input ~ 0
+AD9
+Text GLabel 4600 2400 2    50   Input ~ 0
+AD10
+Text GLabel 4600 2300 2    50   Input ~ 0
+AD11
+Text GLabel 4600 2200 2    50   Input ~ 0
+AD12
+Text GLabel 4600 2100 2    50   Input ~ 0
+AD13
+Text GLabel 4600 2000 2    50   Input ~ 0
+AD14
+Text GLabel 4600 1900 2    50   Input ~ 0
+AD15
+Wire Wire Line
+	4100 3400 4100 3500
+Connection ~ 4100 3500
+Wire Wire Line
+	4100 3500 4100 3600
+Wire Wire Line
+	4100 3700 4100 3800
+Connection ~ 4100 3800
+Wire Wire Line
+	4100 3800 4100 3900
+Connection ~ 4100 3900
+Wire Wire Line
+	4100 3900 4100 4000
+Text GLabel 4100 4100 2    50   Input ~ 0
+AGND
+Text GLabel 2500 3300 0    50   Input ~ 0
++2.7V
+Wire Wire Line
+	2500 3300 2500 3400
+Connection ~ 2500 3400
+Wire Wire Line
+	2500 3400 2500 3500
+Connection ~ 2500 3500
+Wire Wire Line
+	2500 3500 2500 3600
+Text GLabel 2500 3800 0    50   Input ~ 0
++2.7V
+Wire Wire Line
+	2500 3800 2500 3900
+Connection ~ 2500 3900
+Wire Wire Line
+	2500 3900 2500 4000
+Connection ~ 2500 4000
+Wire Wire Line
+	2500 4000 2500 4100
+Text GLabel 2500 1500 0    50   Input ~ 0
+AINB-
+$Comp
+L imm_lib:C C24
+U 1 1 5BFAB3CE
+P 2050 1400
+F 0 "C24" V 1798 1400 50  0000 C CNN
+F 1 "100nF" V 1889 1400 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1900 1350 50  0001 C CNN
+F 3 "" H 2050 1400 50  0001 C CNN
+	1    2050 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1400 2200 1400
+$Comp
+L SparkFun-Aesthetics:AGND #M0101
+U 1 1 5BFABE56
+P 1650 1400
+F 0 "#M0101" H 1650 1400 50  0001 L BNN
+F 1 "AGND" V 1650 1371 50  0000 R CNN
+F 2 "" H 1650 1400 50  0001 C CNN
+F 3 "" H 1650 1400 50  0001 C CNN
+	1    1650 1400
+	0    1    1    0   
+$EndComp
+Text GLabel 2500 2100 0    50   Input ~ 0
+ADC_REFOUT_1.25V
+Wire Wire Line
+	2500 2100 2500 1900
+Connection ~ 2500 1900
+Wire Wire Line
+	2500 1900 2500 1800
+$Comp
+L imm_lib:C C20
+U 1 1 5BFACE5B
+P 2250 1900
+F 0 "C20" V 1998 1900 50  0000 C CNN
+F 1 "100nF" V 2089 1900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 2100 1850 50  0001 C CNN
+F 3 "" H 2250 1900 50  0001 C CNN
+	1    2250 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L imm_lib:C C19
+U 1 1 5BFAD201
+P 1900 1800
+F 0 "C19" V 1648 1800 50  0000 C CNN
+F 1 "10uF" V 1739 1800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1750 1750 50  0001 C CNN
+F 3 "" H 1900 1800 50  0001 C CNN
+	1    1900 1800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1900 2400 1900
+Wire Wire Line
+	2500 1800 2050 1800
+Connection ~ 2500 1800
+Wire Wire Line
+	2100 1900 1750 1900
+Wire Wire Line
+	1750 1900 1750 1800
+Wire Wire Line
+	1900 1400 1750 1400
+Wire Wire Line
+	1750 1400 1750 1800
+Connection ~ 1750 1400
+Connection ~ 1750 1800
+Text GLabel 2500 1100 0    50   Input ~ 0
+AINA-
+$Comp
+L imm_lib:C C25
+U 1 1 5BFB0865
+P 2050 1000
+F 0 "C25" V 1798 1000 50  0000 C CNN
+F 1 "100nF" V 1889 1000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1900 950 50  0001 C CNN
+F 3 "" H 2050 1000 50  0001 C CNN
+	1    2050 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 1000 2200 1000
+Wire Wire Line
+	1900 1000 1750 1000
+Wire Wire Line
+	1750 1000 1750 1400
+$Comp
+L SparkFun-Aesthetics:AGND #M0102
+U 1 1 5BFB24F8
+P 2450 3100
+F 0 "#M0102" H 2450 3100 50  0001 L BNN
+F 1 "AGND" H 2450 3026 50  0000 C CNN
+F 2 "" H 2450 3100 50  0001 C CNN
+F 3 "" H 2450 3100 50  0001 C CNN
+	1    2450 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 3000 2500 3000
+Text GLabel 2500 2800 0    50   Input ~ 0
+S1
+Text GLabel 2500 2900 0    50   Input ~ 0
+S2
+$Comp
+L imm_lib:C C17
+U 1 1 5BFB35E4
+P 2100 4050
+F 0 "C17" H 1985 4004 50  0000 R CNN
+F 1 "100nF" H 1985 4095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1950 4000 50  0001 C CNN
+F 3 "" H 2100 4050 50  0001 C CNN
+	1    2100 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C4
+U 1 1 5BFB4521
+P 1650 4050
+F 0 "C4" H 1535 4004 50  0000 R CNN
+F 1 "100nF" H 1535 4095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1500 4000 50  0001 C CNN
+F 3 "" H 1650 4050 50  0001 C CNN
+	1    1650 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C3
+U 1 1 5BFB4755
+P 1200 4050
+F 0 "C3" H 1085 4004 50  0000 R CNN
+F 1 "100nF" H 1085 4095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1050 4000 50  0001 C CNN
+F 3 "" H 1200 4050 50  0001 C CNN
+	1    1200 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C2
+U 1 1 5BFB71AF
+P 2100 3550
+F 0 "C2" H 1985 3504 50  0000 R CNN
+F 1 "100nF" H 1985 3595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1950 3500 50  0001 C CNN
+F 3 "" H 2100 3550 50  0001 C CNN
+	1    2100 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C1
+U 1 1 5BFB786D
+P 1650 3550
+F 0 "C1" H 1535 3504 50  0000 R CNN
+F 1 "100nF" H 1535 3595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 1500 3500 50  0001 C CNN
+F 3 "" H 1650 3550 50  0001 C CNN
+	1    1650 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C23
+U 1 1 5BFB7BA8
+P 700 4050
+F 0 "C23" H 585 4004 50  0000 R CNN
+F 1 "100nF" H 585 4095 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 550 4000 50  0001 C CNN
+F 3 "" H 700 4050 50  0001 C CNN
+	1    700  4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L imm_lib:C C22
+U 1 1 5BFB7F37
+P 750 3550
+F 0 "C22" H 635 3504 50  0000 R CNN
+F 1 "100nF" H 635 3595 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 600 3500 50  0001 C CNN
+F 3 "" H 750 3550 50  0001 C CNN
+	1    750  3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 3400 2100 3400
+Connection ~ 1650 3400
+Connection ~ 2100 3400
+Wire Wire Line
+	2100 3400 1650 3400
+Connection ~ 1650 3900
+Wire Wire Line
+	1650 3900 1200 3900
+Connection ~ 2100 3900
+Wire Wire Line
+	2100 3900 1650 3900
+Wire Wire Line
+	2100 4200 1650 4200
+Connection ~ 1650 4200
+Wire Wire Line
+	1650 4200 1200 4200
+Connection ~ 1650 3700
+Wire Wire Line
+	1650 3700 2100 3700
+Wire Wire Line
+	4100 4100 4100 4250
+Wire Wire Line
+	4100 4250 2100 4250
+Wire Wire Line
+	2100 4250 2100 4200
+Connection ~ 2100 4200
+$Comp
+L imm_lib:R R18
+U 1 1 5BFC79CE
+P 1950 2400
+F 0 "R18" V 1743 2400 50  0000 C CNN
+F 1 "10" V 1834 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1850 2450 50  0001 C CNN
+F 3 "" H 1950 2500 50  0001 C CNN
+	1    1950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L imm_lib:R R8
+U 1 1 5BFC8569
+P 1950 2700
+F 0 "R8" V 1743 2700 50  0000 C CNN
+F 1 "10" V 1834 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 1850 2750 50  0001 C CNN
+F 3 "" H 1950 2800 50  0001 C CNN
+	1    1950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L imm_lib:R R64
+U 1 1 5BFC8899
+P 2200 2550
+F 0 "R64" H 2130 2504 50  0000 R CNN
+F 1 "NO" H 2130 2595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2100 2600 50  0001 C CNN
+F 3 "" H 2200 2650 50  0001 C CNN
+	1    2200 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2500 2500 2500 2400
+Wire Wire Line
+	2500 2400 2200 2400
+Wire Wire Line
+	2500 2600 2500 2700
+Wire Wire Line
+	2500 2700 2200 2700
+Wire Wire Line
+	2200 2400 2100 2400
+Connection ~ 2200 2400
+Wire Wire Line
+	2200 2700 2100 2700
+Connection ~ 2200 2700
+Text GLabel 1800 2400 0    50   Input ~ 0
+ACLK
+Text GLabel 1800 2700 0    50   Input ~ 0
+BCLK
+Wire Wire Line
+	2100 3900 2500 3900
+Text GLabel 4100 3400 2    50   Input ~ 0
+AGND
+Text GLabel 4100 4000 2    50   Input ~ 0
+DGND
+Text GLabel 750  3700 0    50   Input ~ 0
+DGND
+Wire Wire Line
+	1200 3900 700  3900
+Wire Wire Line
+	750  3400 1650 3400
+Wire Wire Line
+	750  3700 1650 3700
+Connection ~ 1200 3900
+Wire Wire Line
+	1200 4200 700  4200
+Connection ~ 1200 4200
+$EndSCHEMATC
